@@ -1,0 +1,35 @@
+{
+  "cli": {
+    "version": ">= 5.9.3",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "ios": {
+        "buildConfiguration": "Debug",
+        "enterpriseProvisioning": "universal"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview"
+    },
+    "production": {
+      "channel": "production"
+    },
+    "simulator": {
+      "ios": {
+        "simulator": true
+      },
+      "channel": "simulator"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

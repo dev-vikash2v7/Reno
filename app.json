@@ -1,0 +1,172 @@
+{
+  "expo": {
+    "name": "Reno",
+    "slug": "renoapp-consumer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon1.png",
+    "scheme": "myreno",
+    "userInterfaceStyle": "automatic",
+   
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "usesAppleSignIn": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "infoPlist": {
+        "FacebookAppID": "922885512011627",
+        "FacebookClientToken": "3295de64c33458a61bfa5f38d82dea0c",
+        "FacebookDisplayName": "Renoapp",
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ],
+        "NSContactsUsageDescription": "Allow $(PRODUCT_NAME) to access your contacts."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCPE_7TvgoCOubUY6x1Rl4RaUNgph_jmYo"
+      },
+      "bundleIdentifier": "com.goreno"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD-GEYhA3X5vDGRCd9rTlBa_glNyCrKpws"
+        }
+      },
+      "package": "com.reno",
+      "runtimeVersion": "1.0.0",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.INTERNET",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "*.myreno.io",
+              "pathPrefix": "/records"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics",
+      
+      "expo-notifications",
+      "expo-router",
+      "expo-apple-authentication",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ],
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "922885512011627",
+          "clientToken": "3295de64c33458a61bfa5f38d82dea0c",
+          "displayName": "Renoapp",
+          "scheme": "fb922885512011627",
+          "advertiserIDCollectionEnabled": false,
+          "autoLogAppEventsEnabled": false,
+          "isAutoInitEnabled": true
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "ayushreno"
+        }
+      ],
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0991ffdc-2ff5-48a8-a8df-3d2a22d06d28",
+        "build": {
+          "experimental": {
+            "ios": {
+              "appExtensions": [
+                {
+                  "targetName": "OneSignalNotificationServiceExtension",
+                  "bundleIdentifier": "com.goreno.OneSignalNotificationServiceExtension",
+                  "entitlements": {
+                    "com.apple.security.application-groups": [
+                      "group.com.goreno.onesignal"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "onesignal": {
+        "appId": "80a1bb53-0c0d-4c0d-9bb6-6175e7a2164b"
+      }
+    },
+    "owner": "ayushreno",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/08a040e0-a418-4053-9ce9-0f484bdac290",
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      }
+     
+    }
+  }
+}

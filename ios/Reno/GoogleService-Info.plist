@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>347255866838-0id5560048vm99m4v62c8bd5ko1jfeo5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.347255866838-0id5560048vm99m4v62c8bd5ko1jfeo5</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>347255866838-15qd3v913a881n998e8egvqjovgtr6nd.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgC2uYQYFaYNne8LrtjV_CAsU0xpFgEoI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>347255866838</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.goreno</string>
+	<key>PROJECT_ID</key>
+	<string>renoapp-ed5af</string>
+	<key>STORAGE_BUCKET</key>
+	<string>renoapp-ed5af.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:347255866838:ios:1c15484e958df1890a9077</string>
+</dict>
+</plist>

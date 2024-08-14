@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "347255866838",
+    "project_id": "renoapp-ed5af",
+    "storage_bucket": "renoapp-ed5af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347255866838:android:673cb32e9f6eaef60a9077",
+        "android_client_info": {
+          "package_name": "com.reno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347255866838-u5clrp5l97e6s624944van20g1a0rvcc.apps.googleusercontent.com",
+          
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVOQO0I_QRUtruM9lt4Hy14Yjjj4pFQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347255866838-u5clrp5l97e6s624944van20g1a0rvcc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

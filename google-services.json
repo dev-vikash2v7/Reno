@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "347255866838",
+    "firebase_url": "https://renoapp-ed5af-default-rtdb.firebaseio.com",
+    "project_id": "renoapp-ed5af",
+    "storage_bucket": "renoapp-ed5af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347255866838:android:673cb32e9f6eaef60a9077",
+        "android_client_info": {
+          "package_name": "com.reno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347255866838-15qd3v913a881n998e8egvqjovgtr6nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reno",
+            "certificate_hash": "a222204252236a88e4e1b09e6b121c92b4ef964f"
+          }
+        },
+        {
+          "client_id": "347255866838-m7k2dt4m5ev4f52dgoul3jkk0h4mhqe0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reno",
+            "certificate_hash": "deebd80ca81dd927908e04a7646ebd0ea8005ecf"
+          }
+        },
+        {
+          "client_id": "347255866838-tpald12krjurtu3bt4o7g8rjqh5q0ofa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reno",
+            "certificate_hash": "e37b98c434109235260153dd25b2c671825501dc"
+          }
+        },
+        {
+          "client_id": "347255866838-u5clrp5l97e6s624944van20g1a0rvcc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhVOQO0I_QRUtruM9lt4Hy14Yjjj4pFQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347255866838-u5clrp5l97e6s624944van20g1a0rvcc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "347255866838-0id5560048vm99m4v62c8bd5ko1jfeo5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goreno"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
